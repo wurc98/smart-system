@@ -1,14 +1,17 @@
 <template>
   <Header />
+  <Container />
 </template>
 
 <script>
 import Header from "./components/Header.vue";
+import Container from "./components/Container.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    Container,
   },
 };
 </script>
@@ -20,6 +23,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
