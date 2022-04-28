@@ -1,19 +1,9 @@
 <template>
-  <Header />
-  <Container />
+  <Index />
 </template>
 
-<script>
-import Header from "./components/Header.vue";
-import Container from "./components/Container.vue";
-
-export default {
-  name: "App",
-  components: {
-    Header,
-    Container,
-  },
-};
+<script setup>
+import Index from './pages/index.vue'
 </script>
 
 <style>
@@ -22,7 +12,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background: #ebebeb;
+  height: 100%;
 }
 body {
   margin: 0;

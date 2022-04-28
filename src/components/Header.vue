@@ -11,5 +11,9 @@
 <style scoped>
 .header {
   height: 15vh;
+  font-size: 4vh;
+  line-height: 15vh;
+  font-weight: bold;
+  border-bottom: 2px solid black;
 }
 </style>
